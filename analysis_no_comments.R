@@ -1,5 +1,3 @@
-setwd("/Users/jm/joshualmitchell.github.io/pokecars")
-
 autodata <- read.table("raw_auto-mpg.text", header=TRUE)
 pokedata <- read.csv("raw_pokemon.csv", header=TRUE)
 

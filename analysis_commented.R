@@ -1,6 +1,3 @@
-setwd("/Users/jm/joshualmitchell.github.io/pokecars")
-# Set's the working directory (i.e. tells R where the data is)
-
 autodata <- read.table("raw_auto-mpg.text", header=TRUE) # see line 4
 pokedata <- read.csv("raw_pokemon.csv", header=TRUE) # see line 4
 # Here, we're importing our data from the files into variables.
